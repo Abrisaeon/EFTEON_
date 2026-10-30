@@ -128,7 +128,7 @@ standard_names <- unique(unname(var_name_map))
 # =========================================================
 # DISCOVER FILES
 # =========================================================
-
+#identify all .dat files
 all_files <- list.files(
   data_dir,
   pattern = "\\.dat$",
@@ -136,7 +136,7 @@ all_files <- list.files(
   full.names = TRUE,
   ignore.case = TRUE
 )
-
+#exclude all solar, datatableinfo, status and constants tables
 excluded_files <- all_files[
   grepl(
     "(Solar|DataTableInfo|Status|Const)",
@@ -200,7 +200,7 @@ detect_resolution <- function(file) {
     median(diff(as.numeric(dt)),
            na.rm = TRUE) / 60
   )
-  
+
   resolution <- dplyr::case_when(
     res_min == 5 ~ "5min",
     res_min == 10 ~ "10min",
