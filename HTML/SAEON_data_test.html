@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Tables</title>
+    <link rel="stylesheet" href="../CSS/Lognet_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+<header>
+    <h1>SAEON LoggerNet Data Explorer</h1>
+    <span class="info-button" onclick="showPopup()"><i class="fas fa-info-circle"></i></span>
+</header>
+
+<div class="buttons-container">
+    <div class="left-button">
+        <button id="download-button" class="download-data-btn" onclick="downloadData()">
+            <i class="fas fa-file-download"></i> Save Current Table
+        </button>
+    </div>
+    <div class="right-button">
+        <button class="map-view-button" onclick="openMapView()">
+            <i class="fas fa-map"></i> Map View
+        </button>
+    </div>
+</div>
+
+<table id="names-table">
+    <tbody id="names-list">
+    </tbody>
+</table>
+
+<script src="../JS/Lognet_data2.js" defer></script>
+
+<script>
+    function showPopup() {
+        alert("Content coming soon");
+    }
+
+    function downloadData() {
+        // Implement the functionality to download data here
+    }
+
+    function openMapView() {
+        alert("Map View is not available yet");
+    }
+</script>
+</body>
+
+</html>

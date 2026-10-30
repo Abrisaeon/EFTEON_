@@ -1,0 +1,56 @@
+websites
+EFTEON
+https://lognet.saeon.ac.za/BenKar/index.html
+https://lognet.saeon.ac.za/BenSav/index.html
+https://lognet.saeon.ac.za/MabasaAWS/index.html
+https://lognet.saeon.ac.za/SpioenkopAWS/index.html
+https://lognet.saeon.ac.za/SpioenkopEC/index.html
+
+Arid Lands
+https://lognet.saeon.ac.za/Tierberg/index.html
+https://lognet.saeon.ac.za/Benfontein/index.html
+
+Ndlovu
+https://lognet.saeon.ac.za/SAWC/index.html
+https://lognet.saeon.ac.za/Haenertsburg/index.html
+
+Fynbos
+https://lognet.saeon.ac.za/Besemfontein/index.html
+https://lognet.saeon.ac.za/Dwarsberg/index.html
+https://lognet.saeon.ac.za/Constantiaberg/index.html
+https://lognet.saeon.ac.za/EngCed/index.html
+
+Grasslands
+https://lognet.saeon.ac.za/Mikes_Pass/index.html
+https://lognet.saeon.ac.za/HiAlt/index.html
+https://lognet.saeon.ac.za/Vasi Science Centre/index.html
+https://lognet.saeon.ac.za/CP_Research_Centre/index.html
+
+Servers
+Server:CR1000 Besemfontein sapflow 2
+Server:CR1000 Besemfontein sapflow 3
+Server:CR1000 Vasi Science Centre AWS
+Server:CR1000_Besemfontein
+Server:CR1000_Cath Peak_High Alt AWS
+Server:CR1000_Cath Peak_Mikes Pass AWS
+Server:CR1000_Constantiaberg
+Server:CR1000_Dwarsberg_Jonkershoek
+Server:CR1000_Tierberg
+Server:CR300 Engelsmanskloof
+Server:CR3000_Jonkershoek EC
+Server:CR300Series
+Server:CR300_Cath Peak_Research Centre
+Server:CR6_Cath Peak_EC Tower
+Server:EFTEON Station 5 (Mac station)
+Server:EFTEON Station 6 (Grass station)
+Server:EFTEON_Bambanani ERS
+Server:EFTEON_Benfontein_Karoo
+Server:EFTEON_Benfontein_Savanna
+Server:EFTEON_MabasaTA_AWS
+Server:EFTEON_Maputaland_EC
+Server:EFTEON_Spioenkop_AWS
+Server:EFTEON_Spioenkop_EC
+Server:SAEON_Arid_AWS3_Benfontein
+Server:SAEON_Haenertsburg_AWS
+Server:SAEON_SAWC_AWS
+Server:UWC_CR6_EC

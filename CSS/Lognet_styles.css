@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px; /* Reduced padding */
+}
+
+header {
+    background-color: #337ab7;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #444;
+    position: relative;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+h1 {
+    font-size: 1.8em; /* Reduced font size */
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+.info-button {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Reduced spacing */
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1.2em; /* Reduced font size */
+    cursor: pointer;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Reduced margin */
+    background-color: #f4f4f4;
+    padding: 6px; /* Reduced padding */
+}
+
+#names-table {
+    width: 100%;
+    margin-bottom: 10px; /* Reduced margin */
+    border-collapse: collapse;
+}
+
+#names-table th,
+#names-table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Reduced padding */
+    text-align: left;
+}
+
+#names-table th {
+    background-color: #444;
+    color: #fff;
+}
+
+#names-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+#names-table tr:hover {
+    background-color: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 10px; /* Reduced padding */
+}
+
+.progress-bar {
+    width: 50px;
+    height: 8px; /* Reduced height */
+}
+
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.progress-wrapper span {
+    margin-left: 3px; /* Reduced spacing */
+}
+
+.timestamp-text {
+    display: inline-block;
+    padding: 2px 6px; /* Reduced padding */
+    border-radius: 3px;
+}
+
+.download-btn,
+.get-data-btn,
+.download-data-btn,
+.map-view-button{
+    background-color: #ccc;
+    border: none;
+    color: #333;
+    padding: 8px 12px; /* Reduced padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; /* Reduced font size */
+    margin: 4px 2px; /* Reduced margin */
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.back-btn {
+    background-color: #E52400; /* Updated background color */
+    border: none;
+    color: #fff; /* Updated text color */
+    padding: 8px 12px; /* Reduced padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; /* Reduced font size */
+    margin: 4px 2px; /* Reduced margin */
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.left-button {
+    order: 1;
+}
+
+.right-button {
+    order: 2;
+}
